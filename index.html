@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>onTime ride</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="footer">
+      <div class="navbar">
+        <div class="logo">
+          <a href="#">onTime ride</a>
+        </div>
+        <div class="other_options">
+          <a href="#">Home</a>
+          <a href="#">Prices</a>
+          <a href="#">Help</a>
+          <a href="#">Contact Us</a>
+          <a href="#" id="download">Download App</a>
+        </div>
+      </div>
+
+      <div class="content_area">
+        <h3 id="ontime_slogan">
+          Revolutionizing Transportation for Students and Office Employees
+        </h3>
+        <div id="onTime_theme"><p>Let's reach on time</p></div>
+        <p id="safety">Your safety is our first priority</p>
+        
+        <div class="app_image"></div>
+        <div class="app_description">
+            <p>
+              Book your ride for school colleges and offices <br />at reasonable
+              prices with our helper
+            </p>
+          </div>
+        <button id="button">Book Your First ride</button>
+      </div>
+      <div class="work_in_progress">
+        <div class="container">
+          <h1>
+            <i class="fa-solid fa-bicycle"></i> Work in Progress
+            <i class="fa-solid fa-bicycle"></i>
+          </h1>
+          <div class="loader"></div>
+          <p>We're working hard to bring something amazing. Stay tuned!</p>
+        </div>
+        <form action="https://api.web3forms.com/submit" method="POST">
+                      
+            <!-- Replace with your Access Key -->
+            <input type="hidden" name="access_key" value="89e0af3b-af9a-4dbb-b23a-2da3a8e6ee3c">
+        
+            <!-- Form Inputs. Each input must have a name="" attribute -->
+            <h3 style="color: black; text-align: left;">Name</h3>
+            <input type="text" name="name" required style="cursor: pointer;">
+            <h3 style="color: black; text-align: left;">Email</h3>
+            <input type="email" name="email" required style="cursor: pointer">
+            <h3 style="color: black; text-align: left;">Message</h3>
+            <textarea name="message" required style="cursor: pointer"></textarea>
+        
+            <!-- Honeypot Spam Protection -->
+            <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+        
+            <!-- Custom Confirmation / Success Page -->
+            <!-- <input type="hidden" name="redirect" value="https://mywebsite.com/thanks.html"> -->
+        
+            <button type="submit">Submit Form</button>
+        
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
